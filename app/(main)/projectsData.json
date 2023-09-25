@@ -1,1167 +1,1369 @@
 [
   {
+    "type":"project",
     "projectId": 1,
     "title": "Portfolio Website",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/PortfolioWebsite",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 2,
     "title": "Blog Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/BlogPage",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":false
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": false,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 3,
     "title": "Resume / CV page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 4,
     "title": "Contact Form Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 5,
     "title": "Recipe Book Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 6,
     "title": "E-commerce Product Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 7,
     "title": "Landing Page for a Product",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 8,
     "title": "Company About Us Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 9,
     "title": "Services Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 10,
     "title": "FAQ Page",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 11,
     "title": "Image Gallery",
     "description": "This projects shows the information about me and shows my skills",
     "createdOn": "2023/09/22",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Resume_CV_page",
     "githubLink": "",
-    "screenshots": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg"],
-    "private":true
+    "screenshots": ["2.jpeg", "3.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
-    "projectId": 11,
-    "title": "Image Slider",
-    "description": "Create an interactive image slider using HTML, CSS, and JavaScript.",
-    "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
-    "href": "/p/Image_Slider",
-    "githubLink": "",
-    "screenshots": ["image-slider-1.jpeg", "image-slider-2.jpeg"],
-    "private": true
-  },
-  {
+    "type":"project",
     "projectId": 12,
     "title": "Image Gallery",
     "description": "Build a responsive image gallery with HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Image_Gallery",
     "githubLink": "",
     "screenshots": ["image-gallery-1.jpeg", "image-gallery-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 13,
     "title": "Interactive Quiz",
     "description": "Create a web-based interactive quiz using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Interactive_Quiz",
     "githubLink": "",
     "screenshots": ["interactive-quiz-1.jpeg", "interactive-quiz-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 14,
     "title": "To-Do List App",
     "description": "Build a task management application with HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/ToDo_List_App",
     "githubLink": "",
     "screenshots": ["todo-list-1.jpeg", "todo-list-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 15,
     "title": "Weather App",
     "description": "Develop a weather forecasting web app using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Weather_App",
     "githubLink": "",
     "screenshots": ["weather-app-1.jpeg", "weather-app-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 16,
     "title": "Calculator",
     "description": "Create a basic calculator application with HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Calculator",
     "githubLink": "",
     "screenshots": ["calculator-1.jpeg", "calculator-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 17,
     "title": "Countdown Timer",
     "description": "Build a countdown timer web application using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Countdown_Timer",
     "githubLink": "",
     "screenshots": ["countdown-timer-1.jpeg", "countdown-timer-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 18,
     "title": "Calendar App",
     "description": "Develop an interactive calendar application with HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Calendar_App",
     "githubLink": "",
     "screenshots": ["calendar-app-1.jpeg", "calendar-app-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 19,
     "title": "Login and Registration Form",
     "description": "Create a user authentication system with login and registration forms using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Login_Registration_Form",
     "githubLink": "",
     "screenshots": ["login-registration-1.jpeg", "login-registration-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 20,
     "title": "Comment Section with Validation",
     "description": "Implement a comment section with input validation using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Comment_Section",
     "githubLink": "",
     "screenshots": ["comment-section-1.jpeg", "comment-section-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 21,
     "title": "CSS3 Animations",
     "description": "Create stunning CSS3 animations for web elements.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/CSS3_Animations",
     "githubLink": "",
     "screenshots": ["css-animations-1.jpeg", "css-animations-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 22,
     "title": "Responsive Navbar",
     "description": "Build a responsive navigation bar using HTML and CSS.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Responsive_Navbar",
     "githubLink": "",
     "screenshots": ["responsive-navbar-1.jpeg", "responsive-navbar-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 23,
     "title": "Pricing Table",
     "description": "Design a responsive pricing table with HTML and CSS.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Pricing_Table",
     "githubLink": "",
     "screenshots": ["pricing-table-1.jpeg", "pricing-table-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 24,
     "title": "Card Layout",
     "description": "Create an interactive card layout using HTML and CSS.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Card_Layout",
     "githubLink": "",
     "screenshots": ["card-layout-1.jpeg", "card-layout-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 25,
     "title": "CSS Grid Layout",
     "description": "Explore the power of CSS Grid Layout for complex web layouts.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/CSS_Grid_Layout",
     "githubLink": "",
     "screenshots": ["css-grid-layout-1.jpeg", "css-grid-layout-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 26,
     "title": "Parallax Scrolling",
     "description": "Implement parallax scrolling effects using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Parallax_Scrolling",
     "githubLink": "",
     "screenshots": ["parallax-scrolling-1.jpeg", "parallax-scrolling-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 27,
     "title": "Sticky Header/Footer",
     "description": "Create a website with sticky header and footer elements.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Sticky_Header_Footer",
     "githubLink": "",
     "screenshots": [
       "sticky-header-footer-1.jpeg",
       "sticky-header-footer-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 28,
     "title": "Modal Pop-up",
     "description": "Design and implement modal pop-up windows using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Modal_Popup",
     "githubLink": "",
     "screenshots": ["modal-popup-1.jpeg", "modal-popup-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 29,
     "title": "Dropdown Menu",
     "description": "Create a responsive dropdown menu for navigation.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Dropdown_Menu",
     "githubLink": "",
     "screenshots": ["dropdown-menu-1.jpeg", "dropdown-menu-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 30,
     "title": "Tooltip",
     "description": "Add tooltips to elements using HTML and CSS for improved user experience.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Tooltip",
     "githubLink": "",
     "screenshots": ["tooltip-1.jpeg", "tooltip-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 31,
     "title": "Bar Chart",
     "description": "Create a bar chart visualization using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Bar_Chart",
     "githubLink": "",
     "screenshots": ["bar-chart-1.jpeg", "bar-chart-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 32,
     "title": "Line Chart",
     "description": "Design an interactive line chart using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Line_Chart",
     "githubLink": "",
     "screenshots": ["line-chart-1.jpeg", "line-chart-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 33,
     "title": "Pie Chart",
     "description": "Create a dynamic pie chart visualization using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Pie_Chart",
     "githubLink": "",
     "screenshots": ["pie-chart-1.jpeg", "pie-chart-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 34,
     "title": "Interactive Map",
     "description": "Build an interactive map with markers using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Interactive_Map",
     "githubLink": "",
     "screenshots": ["interactive-map-1.jpeg", "interactive-map-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 35,
     "title": "Progress Bar",
     "description": "Create a dynamic progress bar using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Progress_Bar",
     "githubLink": "",
     "screenshots": ["progress-bar-1.jpeg", "progress-bar-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 36,
     "title": "Data Tables",
     "description": "Design data tables with sorting and filtering features using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Data_Tables",
     "githubLink": "",
     "screenshots": ["data-tables-1.jpeg", "data-tables-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 37,
     "title": "Currency Converter",
     "description": "Create a currency conversion tool with real-time exchange rates using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Currency_Converter",
     "githubLink": "",
     "screenshots": ["currency-converter-1.jpeg", "currency-converter-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 38,
     "title": "Stock Market Tracker",
     "description": "Develop a real-time stock market tracking web app using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Stock_Market_Tracker",
     "githubLink": "",
     "screenshots": [
       "stock-market-tracker-1.jpeg",
       "stock-market-tracker-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 39,
     "title": "Social Media Share Buttons",
     "description": "Implement social media share buttons for content sharing using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Social_Media_Share_Buttons",
     "githubLink": "",
     "screenshots": [
       "social-media-share-buttons-1.jpeg",
       "social-media-share-buttons-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 40,
     "title": "Voting/Polling System",
     "description": "Create a web-based voting or polling system with real-time updates using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Voting_Polling_System",
     "githubLink": "",
     "screenshots": [
       "voting-polling-system-1.jpeg",
       "voting-polling-system-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 41,
     "title": "Weather Dashboard using a Weather API",
     "description": "Create a weather dashboard that fetches and displays weather data from an external API using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Weather_Dashboard",
     "githubLink": "",
     "screenshots": ["weather-dashboard-1.jpeg", "weather-dashboard-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 42,
     "title": "News Aggregator",
     "description": "Build a news aggregation website that collects and displays news articles from various sources using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/News_Aggregator",
     "githubLink": "",
     "screenshots": ["news-aggregator-1.jpeg", "news-aggregator-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 43,
     "title": "Random Quote Generator",
     "description": "Develop a web app that generates random quotes and allows users to share them on social media using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Random_Quote_Generator",
     "githubLink": "",
     "screenshots": [
       "random-quote-generator-1.jpeg",
       "random-quote-generator-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 44,
     "title": "Currency Exchange Rate Calculator",
     "description": "Create a currency exchange rate calculator that converts between different currencies using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Currency_Exchange_Calculator",
     "githubLink": "",
     "screenshots": [
       "currency-exchange-calculator-1.jpeg",
       "currency-exchange-calculator-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 45,
     "title": "Music Player with External API",
     "description": "Build a music player that fetches and plays music tracks from an external API using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Music_Player",
     "githubLink": "",
     "screenshots": ["music-player-1.jpeg", "music-player-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 46,
     "title": "Google Maps Integration",
     "description": "Integrate Google Maps into a web page to display locations and routes using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Google_Maps_Integration",
     "githubLink": "",
     "screenshots": [
       "google-maps-integration-1.jpeg",
       "google-maps-integration-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 47,
     "title": "Social Media Feed Integration",
     "description": "Integrate social media feeds (e.g., Twitter, Instagram) into a web page using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Social_Media_Feed",
     "githubLink": "",
     "screenshots": [
       "social-media-feed-integration-1.jpeg",
       "social-media-feed-integration-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 48,
     "title": "YouTube Video Player",
     "description": "Create a YouTube video player that allows users to search for and watch YouTube videos using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/YouTube_Video_Player",
     "githubLink": "",
     "screenshots": [
       "youtube-video-player-1.jpeg",
       "youtube-video-player-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 49,
     "title": "Image Search Engine",
     "description": "Build an image search engine that retrieves and displays images based on user queries using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Image_Search_Engine",
     "githubLink": "",
     "screenshots": ["image-search-engine-1.jpeg", "image-search-engine-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 50,
     "title": "GitHub Repository Viewer",
     "description": "Develop a GitHub repository viewer that fetches and displays GitHub repositories and their details using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/GitHub_Repository_Viewer",
     "githubLink": "",
     "screenshots": ["github-repo-viewer-1.jpeg", "github-repo-viewer-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 51,
     "title": "E-commerce Website",
     "description": "Design and develop a full-fledged e-commerce website with product listings, shopping cart, and payment integration using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Ecommerce_Website",
     "githubLink": "",
     "screenshots": ["ecommerce-website-1.jpeg", "ecommerce-website-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 52,
     "title": "Blog Platform",
     "description": "Create a blog platform where users can write, publish, and share blog posts with rich text formatting using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Blog_Platform",
     "githubLink": "",
     "screenshots": ["blog-platform-1.jpeg", "blog-platform-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 53,
     "title": "Real-time Chat Application",
     "description": "Build a real-time chat application with user authentication, online status, and message history using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Chat_Application",
     "githubLink": "",
     "screenshots": ["chat-application-1.jpeg", "chat-application-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 54,
     "title": "Personal Finance Tracker",
     "description": "Develop a personal finance tracker that allows users to manage expenses, income, and budgets using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Finance_Tracker",
     "githubLink": "",
     "screenshots": ["finance-tracker-1.jpeg", "finance-tracker-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 55,
     "title": "Recipe Book",
     "description": "Create a digital recipe book with recipe search, ingredient lists, and cooking instructions using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Recipe_Book",
     "githubLink": "",
     "screenshots": ["recipe-book-1.jpeg", "recipe-book-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 56,
     "title": "Job Search Platform",
     "description": "Build a job search platform that aggregates job listings from various sources and provides search and filter options using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Job_Search",
     "githubLink": "",
     "screenshots": ["job-search-1.jpeg", "job-search-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 57,
     "title": "Language Learning App",
     "description": "Develop a language learning app that offers lessons, quizzes, and progress tracking for language learners using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Language_Learning",
     "githubLink": "",
     "screenshots": ["language-learning-1.jpeg", "language-learning-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 58,
     "title": "Feedback Survey",
     "description": "Create a feedback survey tool with customizable questions and data analysis using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Feedback_Survey",
     "githubLink": "",
     "screenshots": ["feedback-survey-1.jpeg", "feedback-survey-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 59,
     "title": "Digital Portfolio Platform",
     "description": "Design a platform where users can create and showcase their digital portfolios with various media formats using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Digital_Portfolio",
     "githubLink": "",
     "screenshots": ["digital-portfolio-1.jpeg", "digital-portfolio-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 60,
     "title": "Online Quiz Platform",
     "description": "Build an online quiz platform with question banks, timer, and scoring system using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Quiz",
     "githubLink": "",
     "screenshots": ["online-quiz-1.jpeg", "online-quiz-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 61,
     "title": "Social Network",
     "description": "Create a social networking platform where users can connect, post updates, and interact with each other using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Social_Network",
     "githubLink": "",
     "screenshots": ["social-network-1.jpeg", "social-network-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 62,
     "title": "Video Streaming Platform",
     "description": "Build a video streaming platform that allows users to upload, watch, and share videos with comments and likes using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Video_Streaming",
     "githubLink": "",
     "screenshots": ["video-streaming-1.jpeg", "video-streaming-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 63,
     "title": "Online Auction System",
     "description": "Develop an online auction system where users can bid on items, view item details, and participate in auctions using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Auction",
     "githubLink": "",
     "screenshots": ["online-auction-1.jpeg", "online-auction-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 64,
     "title": "Portfolio Website Template",
     "description": "Design a portfolio website template with multiple sections for showcasing personal or professional work using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Portfolio_Template",
     "githubLink": "",
     "screenshots": ["portfolio-template-1.jpeg", "portfolio-template-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 65,
     "title": "Online Photo Editor",
     "description": "Create an online photo editor that allows users to upload and edit images with various filters and tools using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Photo_Editor",
     "githubLink": "",
     "screenshots": ["online-photo-editor-1.jpeg", "online-photo-editor-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 66,
     "title": "Travel Planner",
     "description": "Develop a travel planning application that helps users create itineraries, find accommodations, and explore destinations using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Travel_Planner",
     "githubLink": "",
     "screenshots": ["travel-planner-1.jpeg", "travel-planner-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 67,
     "title": "File Sharing Platform",
     "description": "Build a file sharing platform that allows users to upload, share, and download files securely using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/File_Sharing",
     "githubLink": "",
     "screenshots": ["file-sharing-1.jpeg", "file-sharing-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 68,
     "title": "Virtual Event Platform",
     "description": "Create a virtual event platform that hosts online events, webinars, and conferences with registration and live streaming capabilities using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Virtual_Event",
     "githubLink": "",
     "screenshots": ["virtual-event-1.jpeg", "virtual-event-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 69,
     "title": "Online Reservation System",
     "description": "Develop an online reservation system for booking services, tables, or appointments with user accounts and notifications using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Reservation_System",
     "githubLink": "",
     "screenshots": ["reservation-system-1.jpeg", "reservation-system-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 70,
     "title": "Personal Dashboard",
     "description": "Design a personal dashboard with widgets for weather, calendar, news, and more, allowing users to customize their dashboard using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Personal_Dashboard",
     "githubLink": "",
     "screenshots": ["personal-dashboard-1.jpeg", "personal-dashboard-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 71,
     "title": "Task Management App",
     "description": "Create a task management application where users can create, organize, and track tasks with due dates and priority levels using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Task_Management_App",
     "githubLink": "",
     "screenshots": ["task-management-app-1.jpeg", "task-management-app-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 72,
     "title": "Weather Forecast App",
     "description": "Build a weather forecast application that provides weather information for multiple locations with interactive maps using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Weather_Forecast_App",
     "githubLink": "",
     "screenshots": [
       "weather-forecast-app-1.jpeg",
       "weather-forecast-app-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 73,
     "title": "Online Calendar",
     "description": "Develop an online calendar application for scheduling events, appointments, and reminders with user accounts and notifications using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Calendar",
     "githubLink": "",
     "screenshots": ["online-calendar-1.jpeg", "online-calendar-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 74,
     "title": "Recipe Sharing Platform",
     "description": "Create a recipe sharing platform where users can share their favorite recipes, rate recipes, and comment on them using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Recipe_Sharing",
     "githubLink": "",
     "screenshots": ["recipe-sharing-1.jpeg", "recipe-sharing-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 75,
     "title": "Online Survey Tool",
     "description": "Build an online survey tool that allows users to create and distribute surveys, collect responses, and generate reports using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Survey",
     "githubLink": "",
     "screenshots": ["online-survey-1.jpeg", "online-survey-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 76,
     "title": "Fitness Tracker",
     "description": "Develop a fitness tracking application that allows users to log workouts, track progress, and set fitness goals using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Fitness_Tracker",
     "githubLink": "",
     "screenshots": ["fitness-tracker-1.jpeg", "fitness-tracker-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 77,
     "title": "Online Quiz Game",
     "description": "Create an online quiz game with multiple-choice questions, time limits, and high-score leaderboards using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Quiz_Game",
     "githubLink": "",
     "screenshots": ["quiz-game-1.jpeg", "quiz-game-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 78,
     "title": "Virtual Reality Experience",
     "description": "Design a virtual reality experience using A-Frame or Three.js to create immersive 3D environments for web browsers.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Virtual_Reality",
     "githubLink": "",
     "screenshots": ["virtual-reality-1.jpeg", "virtual-reality-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 79,
     "title": "Weather App with Geolocation",
     "description": "Build a weather application that uses geolocation to fetch and display the user's current weather conditions and forecast using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Weather_App_Geolocation",
     "githubLink": "",
     "screenshots": [
       "weather-app-geolocation-1.jpeg",
       "weather-app-geolocation-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 80,
     "title": "Expense Tracking Mobile App",
     "description": "Develop a mobile app for tracking expenses, managing budgets, and generating expense reports using HTML, CSS, and JavaScript (with a mobile framework like React Native or Flutter).",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Expense_Tracking_App",
     "githubLink": "",
     "screenshots": [
       "expense-tracking-app-1.jpeg",
       "expense-tracking-app-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 81,
     "title": "Recipe Recommendation System",
     "description": "Create a recipe recommendation system that suggests recipes based on user preferences and dietary restrictions using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Recipe_Recommendation",
     "githubLink": "",
     "screenshots": [
       "recipe-recommendation-1.jpeg",
       "recipe-recommendation-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 82,
     "title": "Event Ticketing Platform",
     "description": "Build an event ticketing platform where users can browse, purchase, and download event tickets for concerts, sports, and more using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Event_Ticketing",
     "githubLink": "",
     "screenshots": ["event-ticketing-1.jpeg", "event-ticketing-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 83,
     "title": "Online Banking System",
     "description": "Develop an online banking system with account management, fund transfers, and transaction history using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Banking",
     "githubLink": "",
     "screenshots": ["online-banking-1.jpeg", "online-banking-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 84,
     "title": "Portfolio Website with CMS",
     "description": "Design a portfolio website with a content management system (CMS) for easy content updates and additions using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Portfolio_CMS",
     "githubLink": "",
     "screenshots": [
       "portfolio-website-cms-1.jpeg",
       "portfolio-website-cms-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 85,
     "title": "Space Exploration Simulation",
     "description": "Create a space exploration simulation that allows users to navigate through a virtual universe, visit planets, and learn about celestial objects using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Space_Exploration",
     "githubLink": "",
     "screenshots": ["space-exploration-1.jpeg", "space-exploration-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 86,
     "title": "Language Translation App",
     "description": "Develop a language translation application that allows users to enter text and get translations in multiple languages using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Translation_App",
     "githubLink": "",
     "screenshots": [
       "language-translation-app-1.jpeg",
       "language-translation-app-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 87,
     "title": "Smart Home Control System",
     "description": "Build a smart home control system that enables users to control IoT devices, lights, thermostats, and security cameras using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Smart_Home_Control",
     "githubLink": "",
     "screenshots": ["smart-home-control-1.jpeg", "smart-home-control-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 88,
     "title": "Online Art Gallery",
     "description": "Create an online art gallery where artists can showcase their artwork, and users can browse, purchase, and leave reviews using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Art_Gallery",
     "githubLink": "",
     "screenshots": ["online-art-gallery-1.jpeg", "online-art-gallery-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 89,
     "title": "Job Application Tracker",
     "description": "Develop a job application tracking tool to help users keep track of job applications, interviews, and follow-ups using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Job_Application_Tracker",
     "githubLink": "",
     "screenshots": [
       "job-application-tracker-1.jpeg",
       "job-application-tracker-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 90,
     "title": "Virtual Classroom",
     "description": "Build a virtual classroom platform with video conferencing, screen sharing, and interactive whiteboards for online education using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Virtual_Classroom",
     "githubLink": "",
     "screenshots": ["virtual-classroom-1.jpeg", "virtual-classroom-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 91,
     "title": "Online Movie Streaming",
     "description": "Create an online movie streaming platform where users can browse, watch, and rate movies with user profiles and recommendations using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Movie_Streaming",
     "githubLink": "",
     "screenshots": ["movie-streaming-1.jpeg", "movie-streaming-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 92,
     "title": "Online Voting System",
     "description": "Develop an online voting system for conducting secure and transparent elections with user authentication and real-time results using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Online_Voting",
     "githubLink": "",
     "screenshots": ["online-voting-1.jpeg", "online-voting-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 93,
     "title": "Weather App with Voice Assistant",
     "description": "Build a weather application that provides weather forecasts through voice commands and responses using HTML, CSS, JavaScript, and a voice recognition API.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Weather_App_Voice_Assistant",
     "githubLink": "",
     "screenshots": [
       "weather-app-voice-assistant-1.jpeg",
       "weather-app-voice-assistant-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 94,
     "title": "Online Game Store",
     "description": "Create an online game store where users can purchase and download games, view game reviews, and manage their gaming library using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Game_Store",
     "githubLink": "",
     "screenshots": ["game-store-1.jpeg", "game-store-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 95,
     "title": "Cryptocurrency Tracker",
     "description": "Develop a cryptocurrency tracker that displays real-time cryptocurrency prices, market data, and portfolio management using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Crypto_Tracker",
     "githubLink": "",
     "screenshots": ["crypto-tracker-1.jpeg", "crypto-tracker-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 96,
     "title": "Medical Records Management",
     "description": "Build a medical records management system for healthcare professionals to store, access, and update patient records securely using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Medical_Records",
     "githubLink": "",
     "screenshots": ["medical-records-1.jpeg", "medical-records-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 97,
     "title": "Personal Finance Dashboard",
     "description": "Create a personal finance dashboard that aggregates bank accounts, investments, and financial transactions for comprehensive financial management using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Finance_Dashboard",
     "githubLink": "",
     "screenshots": ["finance-dashboard-1.jpeg", "finance-dashboard-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 98,
     "title": "Online Photo Gallery",
     "description": "Develop an online photo gallery where users can upload, organize, and share their photo collections with privacy settings using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Photo_Gallery",
     "githubLink": "",
     "screenshots": ["photo-gallery-1.jpeg", "photo-gallery-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 99,
     "title": "Task Scheduling Application",
     "description": "Build a task scheduling application that helps users plan and manage their daily tasks, set reminders, and prioritize activities using HTML, CSS, and JavaScript.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Task_Scheduler",
     "githubLink": "",
     "screenshots": ["task-scheduler-1.jpeg", "task-scheduler-2.jpeg"],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
   },
   {
+    "type":"project",
     "projectId": 100,
     "title": "Personal AI Assistant",
     "description": "Create a personal AI assistant that can perform tasks like setting reminders, answering questions, and providing recommendations using HTML, CSS, JavaScript, and natural language processing (NLP) APIs.",
     "createdOn": "2023-09-22T00:00:00Z",
-    "finishedOn": null,
+    "finishedOn": "",
     "href": "/p/Personal_AI_Assistant",
     "githubLink": "",
     "screenshots": [
       "personal-ai-assitant-1.jpeg",
       "personal-ai-assitant-2.jpeg"
     ],
-    "private": true
+    "private": true,
+    "screenshotPath": "/projectImages"
+  },
+  {
+    "type":"project",
+    "projectId": 101,
+    "title": "Image Slider",
+    "description": "Create an interactive image slider using HTML, CSS, and JavaScript.",
+    "createdOn": "2023-09-22T00:00:00Z",
+    "finishedOn": "",
+    "href": "/p/Image_Slider",
+    "githubLink": "",
+    "screenshots": ["image-slider-1.jpeg", "image-slider-2.jpeg"],
+    "private": true,
+    "screenshotPath": "/projectImages"
   }
 ]
