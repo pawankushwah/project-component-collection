@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   FontAwesomeIcon,
   FontAwesomeIconProps,
@@ -31,6 +31,7 @@ export default function PasswordGenerator() {
   const [errors, setErrors] = useState<{
     passwordPropertyError: { message: React.ReactNode; hasError: Boolean };
   }>({ passwordPropertyError: { message: "", hasError: false } });
+  const generatePasswordBtn = useRef<HTMLButtonElement | null>(null);
   
   useEffect(()=>{
     setPassword(generatePassword(passwordProperties, 8));
@@ -68,9 +69,11 @@ export default function PasswordGenerator() {
       );
       newErrors.passwordPropertyError.hasError = true;
       setErrors(newErrors);
+      generatePasswordBtn.current!.disabled = true;
     } else {
       newErrors.passwordPropertyError.hasError = false;
       setErrors(newErrors);
+      generatePasswordBtn.current!.disabled = false;
     }
   }
 
@@ -245,7 +248,8 @@ export default function PasswordGenerator() {
             onClick={() =>
               setPassword(generatePassword(passwordProperties, passwordLength))
             }
-            className="p-2 w-full bg-slate-600 text-xl rounded-lg"
+            ref={generatePasswordBtn}
+            className="p-2 w-full bg-slate-800 hover:bg-slate-700 text-xl rounded-lg"
           >
             Generate Password
           </button>
