@@ -1,4 +1,4 @@
-import "./page.css";
+import "@/app/(main)/globals.css";
 import type { Metadata } from 'next';
 import { Ubuntu } from 'next/font/google';
 
