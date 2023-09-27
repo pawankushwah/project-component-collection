@@ -36,7 +36,7 @@ const friendsData = [
   {
     name: "Anshul",
     age: "19",
-    description: "हिलता हुआ लोंडा",
+    description: "हिलाता हुआ लोंडा",
     image: "anshul.png",
   },
 ];
@@ -49,24 +49,22 @@ export default function MyFriend() {
       <div className="flex flex-wrap justify-center items-center gap-5">
         {friendsData.map((e, index) => {
           return (
-            <>
-              <div
-                className="flex flex-col max-w-96 rounded-lg text-center border-2 bg-black hover:bg-gray-800 overflow-hidden"
-                key={index}
-              >
-                <Image
-                  src={`/friends_images/${e.image}`}
-                  alt={e.name}
-                  width={200}
-                  height={200}
-                  className="rounded-full w-96 aspect-square p-5"
-                />
-                <div className="flex flex-col text-3xl p-5 space-y-5">
-                  <div>{e.name}</div>
-                  <div>{e.description}</div>
-                </div>
+            <div
+              className="flex flex-col max-w-96 rounded-lg text-center border-2 bg-black hover:bg-gray-800 overflow-hidden"
+              key={index}
+            >
+              <Image
+                src={`/friends_images/${e.image}`}
+                alt={e.name}
+                width={200}
+                height={200}
+                className="rounded-full w-96 aspect-square p-5"
+              />
+              <div className="flex flex-col text-3xl p-5 space-y-5">
+                <div>{e.name}</div>
+                <div>{e.description}</div>
               </div>
-            </>
+            </div>
           );
         })}
       </div>
