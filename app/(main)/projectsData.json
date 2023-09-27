@@ -1365,5 +1365,18 @@
     "screenshots": ["image-slider-1.jpeg", "image-slider-2.jpeg"],
     "private": true,
     "screenshotPath": "/projectImages"
+  },
+  {
+    "type":"project",
+    "projectId": 102,
+    "title": "Password Generator",
+    "description": "Generated the random password based on the properties and length",
+    "createdOn": "2023/09/26",
+    "finishedOn": "2023/09/26",
+    "href": "/p/password-generator",
+    "githubLink": "",
+    "screenshots": ["password-generator-1.png","password-generator-2.png"],
+    "private": false,
+    "screenshotPath": "/projectImages"
   }
 ]

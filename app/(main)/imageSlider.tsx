@@ -26,8 +26,8 @@ export default function ImageSlider({ images, imagePath }: propsType) {
       <Image src={`${imagePath}/${images[slide-1]}`} className="h-full" alt="slide" width={400} height={400} />
       </div>
       <div className="absolute top-1/2 -translate-y-1/2 left-5 right-5 flex justify-between items-center">
-        <Link href={"#"} onClick={handlePrev} id="prev" className="bg-gray-800 hover:bg-gray-500 rounded-full cursor-pointer p-5 w-5 h-5 flex justify-center items-center opacity-50 hover:opacity-100">❮</Link>
-        <Link href={"#"} onClick={handleNext} id="next" className="bg-gray-800 hover:bg-gray-500 rounded-full cursor-pointer p-5 w-5 h-5 flex justify-center items-center opacity-50 hover:opacity-100">❯</Link>
+        <button onClick={handlePrev} id="prev" className="bg-gray-800 hover:bg-gray-500 rounded-full cursor-pointer p-5 w-5 h-5 flex justify-center items-center opacity-50 hover:opacity-100">❮</button>
+        <button onClick={handleNext} id="next" className="bg-gray-800 hover:bg-gray-500 rounded-full cursor-pointer p-5 w-5 h-5 flex justify-center items-center opacity-50 hover:opacity-100">❯</button>
       </div>
     </div>
   );

@@ -32,6 +32,7 @@ export default function PasswordGenerator() {
     passwordPropertyError: { message: React.ReactNode; hasError: Boolean };
   }>({ passwordPropertyError: { message: "", hasError: false } });
   const generatePasswordBtn = useRef<HTMLButtonElement | null>(null);
+  const sliderForPassword = useRef<HTMLInputElement | null>(null);
   
   useEffect(()=>{
     setPassword(generatePassword(passwordProperties, 8));
@@ -70,10 +71,12 @@ export default function PasswordGenerator() {
       newErrors.passwordPropertyError.hasError = true;
       setErrors(newErrors);
       generatePasswordBtn.current!.disabled = true;
+      sliderForPassword.current!.disabled = true;
     } else {
       newErrors.passwordPropertyError.hasError = false;
       setErrors(newErrors);
       generatePasswordBtn.current!.disabled = false;
+      sliderForPassword.current!.disabled = false;
     }
   }
 
@@ -114,13 +117,13 @@ export default function PasswordGenerator() {
 
   return (
     <>
-      <div className="flex justify-center items-center h-screen w-screen">
+      <div className="flex justify-center items-center h-screen w-screen p-2">
         <div className="max-w-lg w-full flex flex-col space-y-5 justify-center items-center border-2 border-gray-400 p-5 rounded-lg">
-          <h1 className="text-4xl">Password Generator</h1>
+          <h1 className="text-center text-3xl md:text-4xl">Password Generator</h1>
 
           {/* Password Section */}
           <div className="w-full border-2 border-gray-400 rounded-lg p-2 flex justify-between items-center text-xl">
-            <span>{password}</span>
+            <span className="text-ellipsis overflow-hidden">{password}</span>
             <div>
               <FontAwesomeIcon
                 icon={faCopy}
@@ -148,6 +151,7 @@ export default function PasswordGenerator() {
               max={30}
               step={1}
               className="w-full accent-green-400"
+              ref={sliderForPassword}
             />
             <span className="w-full max-w-fit">Length : {passwordLength}</span>
           </div>
@@ -155,14 +159,14 @@ export default function PasswordGenerator() {
           {/* Password Characteristics Selection Section */}
           <div className="w-full">
             <div className="text-xl text-center">Password Properties</div>
-            {errors.passwordPropertyError.hasError && (
-              <div className="text-red-500">
-                {errors.passwordPropertyError.message}
-              </div>
-            )}
             <hr className="my-3" />
-            <div className="grid grid-cols-2 w-full select-none">
-              <div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full select-none">
+                {errors.passwordPropertyError.hasError && (
+                  <div className="text-red-500 text-center sm:col-span-2">
+                    {errors.passwordPropertyError.message}
+                  </div>
+                )}
+                <label htmlFor="password-lowercase" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <input
                   type="checkbox"
                   id="password-lowercase"
@@ -170,13 +174,11 @@ export default function PasswordGenerator() {
                   onChange={(e) =>
                     handlePasswordPropertiesClick(e, "lowercase")
                   }
-                  className="accent-red-400"
+                  className="accent-red-400 mr-2"
                 />
-                <label htmlFor="password-lowercase" className="px-4">
                   Lowercase (a-z)
                 </label>
-              </div>
-              <div>
+                <label htmlFor="password-uppercase" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <input
                   type="checkbox"
                   id="password-uppercase"
@@ -184,37 +186,31 @@ export default function PasswordGenerator() {
                   onChange={(e) =>
                     handlePasswordPropertiesClick(e, "uppercase")
                   }
-                  className="accent-red-300"
+                  className="accent-red-300 p-4 checked:bg-green-500 mr-2"
                 />
-                <label htmlFor="password-uppercase" className="px-4">
                   Uppercase (A-Z)
                 </label>
-              </div>
-              <div>
+                <label htmlFor="password-number" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <input
                   type="checkbox"
                   id="password-number"
                   checked={passwordProperties.number}
                   onChange={(e) => handlePasswordPropertiesClick(e, "number")}
-                  className="accent-orange-400"
+                  className="accent-orange-400 p-4 checked:bg-green-500 mr-2"
                 />
-                <label htmlFor="password-number" className="px-4">
                   Numbers (0-9)
                 </label>
-              </div>
-              <div>
+                <label htmlFor="password-symbol" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <input
                   type="checkbox"
                   id="password-symbol"
                   checked={passwordProperties.symbol}
                   onChange={(e) => handlePasswordPropertiesClick(e, "symbol")}
-                  className="accent-orange-300"
+                  className="accent-orange-300 p-4 checked:bg-green-500 mr-2"
                 />
-                <label htmlFor="password-symbol" className="px-4">
                   Symbols (!#$^&*_-+=)
                 </label>
-              </div>
-              <div>
+                <label htmlFor="password-exclude-duplicate" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <input
                   type="checkbox"
                   id="password-exclude-duplicate"
@@ -222,13 +218,11 @@ export default function PasswordGenerator() {
                   onChange={(e) =>
                     handlePasswordPropertiesClick(e, "excludeDuplicate")
                   }
-                  className="accent-green-300"
+                  className="accent-green-300 p-4 checked:bg-green-500 mr-2"
                 />
-                <label htmlFor="password-exclude-duplicate" className="px-4">
                   Exclude Duplicate
                 </label>
-              </div>
-              <div>
+                <label htmlFor="password-include-spaces" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <input
                   type="checkbox"
                   id="password-include-spaces"
@@ -236,13 +230,11 @@ export default function PasswordGenerator() {
                   onChange={(e) =>
                     handlePasswordPropertiesClick(e, "includeSpaces")
                   }
-                  className="accent-green-400"
+                  className="accent-green-400 p-2 p-4 checked:bg-green-500 mr-2"
                 />
-                <label htmlFor="password-include-spaces" className="px-4">
                   Include Spaces
                 </label>
               </div>
-            </div>
           </div>
           <button
             onClick={() =>

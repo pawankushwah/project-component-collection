@@ -45,14 +45,13 @@ export default function Home() {
   // using a state so that we can change the array from where we will filter out the data
   // It is default to the projects
   const [dataToSearchFrom, setDataToSearchFrom] = useState<(projectsType | componentType)[]>(projects);
-  const [itemNotFound, setItemNotFound] = useState(false);
+  const [itemNotFound, setItemNotFound] = useState({isNotFound: false, message: ""});
 
   // It is being used for displaying the data in the form of cards when we search.
   const [cardJSX, setCardJSX] = useState(displayFilteredData(dataToSearchFrom));
 
   // useState for managing the selection of projects or components
   function handleSearchTypeChange(e: React.ChangeEvent<HTMLSelectElement>): void {
-    console.log("changing type of Search", e.target.value);
     e.target.value === "components" ? setDataToSearchFrom(components) : setDataToSearchFrom(projects);
   }
 
@@ -74,8 +73,9 @@ export default function Home() {
     });
 
     // display the output
-    console.log(filteredArray);
     setCardJSX(displayFilteredData(filteredArray));
+    if(filteredArray.length) setItemNotFound({isNotFound: false, message: ""});
+    else setItemNotFound({isNotFound: true, message: `Nothing Found - "${e.target.value}"`});
   }
 
   function displayFilteredData(filteredArray: (projectsType | componentType)[] ) {
@@ -124,11 +124,7 @@ export default function Home() {
       >
         {cardJSX}
         {
-          itemNotFound && (
-            <>
-              Not 
-            </>
-          )
+          itemNotFound.isNotFound && <div className="text-xl">{itemNotFound.message}</div>
         }
       </div>
     </>
