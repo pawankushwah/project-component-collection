@@ -230,7 +230,7 @@ export default function PasswordGenerator() {
                   onChange={(e) =>
                     handlePasswordPropertiesClick(e, "includeSpaces")
                   }
-                  className="accent-green-400 p-2 p-4 checked:bg-green-500 mr-2"
+                  className="accent-green-400 p-2 checked:bg-green-500 mr-2"
                 />
                   Include Spaces
                 </label>
