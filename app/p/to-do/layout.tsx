@@ -1,13 +1,11 @@
 import "@/app/(main)/globals.css";
-import type { Metadata } from 'next';
 import { Ubuntu } from 'next/font/google';
 
 const font = Ubuntu({ subsets: ["latin-ext", "latin"], weight: "400" });
 
 export const metadata = {
-  title: "Password Generator",
-  description:
-    "Generated the random password based on the properties and length",
+  title: "TO DO APP",
+  description: "You can create a your task, delete it and you can take put each task in different categories",
 };
 
 export default function RootLayout({
