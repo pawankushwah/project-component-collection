@@ -1378,18 +1378,5 @@
     "screenshots": ["password-generator-1.png","password-generator-2.png"],
     "private": false,
     "screenshotPath": "/projectImages"
-  },
-  {
-    "type":"project",
-    "projectId": 102,
-    "title": "TO DO APP",
-    "description": "You can create a your task, delete it and you can take put each task in different categories",
-    "createdOn": "2023/09/29",
-    "finishedOn": "2023/09/30",
-    "href": "/p/to-do",
-    "githubLink": "",
-    "screenshots": ["qr-generator-1.png","qr-generator-2.png"],
-    "private": false,
-    "screenshotPath": "/projectImages"
   }
 ]

@@ -5,9 +5,9 @@ import { Ubuntu } from 'next/font/google';
 const font = Ubuntu({ subsets: ["latin-ext", "latin"], weight: "400" });
 
 export const metadata = {
-  title: "TO DO APP",
+  title: "Password Generator",
   description:
-    "You can create a your task, delete it and you can take put each task in different categories",
+    "Generated the random password based on the properties and length",
 };
 
 export default function RootLayout({
