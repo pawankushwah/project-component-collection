@@ -9,41 +9,41 @@ export default function DraggableDiv2() {
   const [lastX, setLastX] = useState<number>(0);
   const [lastY, setLastY] = useState<number>(0);
 
-  function handleMouseMove(e: MouseEvent){
-    if (!isDragging || !divRef.current) return;
-    const left = e.clientX - offsetX.current;
-    const top = e.clientY - offsetY.current;
-
-    const maxX = window.innerWidth - divRef.current.clientWidth;
-    const maxY = window.innerHeight - divRef.current.clientHeight;
-
-    const clampedLeft = Math.min(Math.max(0, left), maxX);
-    const clampedTop = Math.min(Math.max(0, top), maxY);
-
-    setLastX(clampedLeft);
-    setLastY(clampedTop);
-  };
-  
   useEffect(() => {
+    function handleMouseMove(this: Window, e: MouseEvent) {
+      if (!isDragging || !divRef.current) return;
+      const left = e.clientX - offsetX.current;
+      const top = e.clientY - offsetY.current;
+
+      const maxX = window.innerWidth - divRef.current.clientWidth;
+      const maxY = window.innerHeight - divRef.current.clientHeight;
+
+      const clampedLeft = Math.min(Math.max(0, left), maxX);
+      const clampedTop = Math.min(Math.max(0, top), maxY);
+
+      setLastX(clampedLeft);
+      setLastY(clampedTop);
+    }
 
     const handleMouseUp = () => {
       setIsDragging(false);
     };
 
-    if (isDragging) {
-      window.addEventListener("mousemove", handleMouseMove);
+    if (isDragging && divRef.current) {
+      window.addEventListener("mousemove", (e) => handleMouseMove);
       window.addEventListener("mouseup", handleMouseUp);
-      divRef.current.style.cursor = 'default';
+      divRef.current.style.cursor = "default";
     }
 
+    const divRefNew = divRef.current;
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("mousemove", (e) => handleMouseMove);
       window.removeEventListener("mouseup", handleMouseUp);
-      divRef.current.style.cursor = 'move';
+      if (divRefNew) divRefNew.style.cursor = "move";
     };
   }, [isDragging]);
 
-  const handleMouseDown = (e: MouseEvent<HTMLDivElement>) => {
+  const handleMouseDown = (e: MouseEvent) => {
     setIsDragging(true);
     if (divRef.current) {
       offsetX.current = e.clientX - divRef.current.getBoundingClientRect().left;
@@ -54,7 +54,9 @@ export default function DraggableDiv2() {
   return (
     <div
       ref={divRef}
-      className={`absolute w-32 h-32 bg-green-400 text-white flex justify-center items-center p-5 rounded-lg select-none ${isDragging ? "cursor-move" : "cursor-default"}`}
+      className={`absolute w-32 h-32 bg-green-400 text-white flex justify-center items-center p-5 rounded-lg select-none ${
+        isDragging ? "cursor-move" : "cursor-default"
+      }`}
       onMouseDown={handleMouseDown}
       style={{
         left: `${lastX}px`,

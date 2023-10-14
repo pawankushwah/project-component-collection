@@ -1,29 +1,58 @@
 "use client";
+import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
+import { faCloudSun, faSunPlantWilt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 
 export default function ThemeManager() {
-      const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light");
+  const [theme, setTheme] = useState<string>("light");
 
-      useEffect(() => {
-            if(theme === 'dark'){
-                  document.documentElement.classList.add("dark");
-                  localStorage.theme = "dark";
-            } 
-            else if(theme === 'light') {
-                  document.documentElement.classList.remove("dark");
-                  localStorage.theme = "light";
-            }
-            else{
-                  window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme("dark") : setTheme("light");
-            }
-      }, [theme]);
-      
+  useEffect(() => {
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    ).matches;
 
-	return (
-		<div className="flex gap-5 absolute top-5 right-5">
-			<button onClick={() => setTheme('dark')} className="p-2 bg-black text-white">D</button>
-			<button onClick={() => setTheme('light')} className="p-2 bg-white text-black">L</button>
-			<button onClick={() => setTheme('')} className="p-2 bg-gray-400 text-black">N</button>
-		</div>
-	);
+    if (prefersDark) {
+      setTheme("dark");
+    }
+
+    const handleThemeChange = (event: MediaQueryListEvent) => {
+      if (event.matches) {
+        setTheme("dark");
+      } else {
+        setTheme("light");
+      }
+    };
+
+    const colorSchemeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    );
+    colorSchemeMediaQuery.addEventListener("change", handleThemeChange);
+
+    return () => {
+      colorSchemeMediaQuery.removeEventListener("change", handleThemeChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+      localStorage.theme = "dark";
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.theme = "light";
+    }
+  }, [theme]);
+
+  return (
+    <div
+      className={`flex text-black dark:text-white p-2 w-7 h-7 justify-center items-center rounded-lg`}
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+    >
+      {theme === "dark" && (
+        <FontAwesomeIcon icon={faSun}/>
+      )}
+      {theme === "light" && <FontAwesomeIcon icon={faMoon} />}
+    </div>
+  );
 }
