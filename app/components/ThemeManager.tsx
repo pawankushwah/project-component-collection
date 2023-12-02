@@ -1,11 +1,12 @@
 "use client";
 import { faMoon, faSun } from "@fortawesome/free-regular-svg-icons";
-import { faCloudSun, faSunPlantWilt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 
 export default function ThemeManager() {
-  const [theme, setTheme] = useState<string>("light");
+  const [theme, setTheme] = useState<string>(
+    window ? window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light" : "light"
+  );
 
   useEffect(() => {
     const prefersDark = window.matchMedia(
@@ -49,9 +50,7 @@ export default function ThemeManager() {
       className={`flex text-black dark:text-white p-2 w-7 h-7 justify-center items-center rounded-lg`}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {theme === "dark" && (
-        <FontAwesomeIcon icon={faSun}/>
-      )}
+      {theme === "dark" && <FontAwesomeIcon icon={faSun} />}
       {theme === "light" && <FontAwesomeIcon icon={faMoon} />}
     </div>
   );

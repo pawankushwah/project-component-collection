@@ -3,7 +3,12 @@ import ThemeManager from "@/app/components/ThemeManager";
 import { faImage } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import { useState, useRef } from "react";
+import {
+  useState,
+  useRef,
+  ChangeEvent,
+  ReactEventHandler,
+} from "react";
 
 export default function ImageEditor() {
   const [saturation, setSaturation] = useState(50);
@@ -11,21 +16,20 @@ export default function ImageEditor() {
   const [inversion, setInversion] = useState(50);
   const [grayscale, setGrayscale] = useState(50);
   const [zoomValue, setZoomValue] = useState(1);
-  const imageWindow = useRef(null);
-  const [imageWindowDimension, setImageWindowDimension] = useState({height: 100, width: 100});
+  const imageWindow = useRef< | null>(null);
+  const [imageWindowDimension, setImageWindowDimension] = useState({
+    height: 100,
+    width: 100,
+  });
 
   const [imageSrc, setImageSrc] = useState({
-    src: undefined,
+    src: {},
     data: { width: 0, height: 0 },
-  });
-  const [imageDimensions, setImageDimensions] = useState({
-    width: 0,
-    height: 0,
   });
   const chooseFileBtn = useRef(null);
   const [uploaded, setUploaded] = useState(true);
 
-  function handleImageUpload(e) {
+  function handleImageUpload(e: ChangeEvent<HTMLInputElement>) {
     if (e.target.files && e.target.files[0]) {
       const reader = new FileReader();
       console.log(e.target.width);
@@ -45,11 +49,12 @@ export default function ImageEditor() {
     setUploaded(false);
   }
 
-  function setNaturalDimension(e) {
-    console.log("Setting Original Image size");
-    console.log("height of the window:", imageWindow.current?.offsetHeight);
-    
-    setImageWindowDimension({height: imageWindow.current.offsetHeight, width: imageWindow.current.offsetWidth})
+  function setNaturalDimension(e: ReactEventHandler<HTMLImageElement>) {
+    if(!imageWindow.current) return;
+    setImageWindowDimension({
+      height: imageWindow.current.offsetHeight,
+      width: imageWindow.current.offsetWidth,
+    });
   }
 
   return (
@@ -67,7 +72,9 @@ export default function ImageEditor() {
 
       <div className="p-5 w-screen h-screen bg-white text-black space-y-5">
         {/* Top section */}
-        <div className="text-5xl pl-5 font-bold text-center">Easy Image Editor</div>
+        <div className="text-5xl pl-5 font-bold text-center">
+          Easy Image Editor
+        </div>
 
         {/* Body section */}
         {!uploaded && (
@@ -232,7 +239,7 @@ export default function ImageEditor() {
                       className="hover:none w-full border rounded-md focus:ring focus:ring-blue-300 focus:outline-none focus:border-blue-400 bg-white"
                       onChange={(e) => setZoomValue(parseInt(e.target.value))}
                       value={zoomValue}
-                      />
+                    />
                     <span className="absolute inset-y-0 right-0 mr-5 flex items-center text-gray-600">
                       %
                     </span>
@@ -251,15 +258,22 @@ export default function ImageEditor() {
             </div>
 
             {/* Right section */}
-            <div ref={imageWindow} className="flex-[5] h-full rounded-lg border-2 border-gray-50 bg-black overflow-auto p-10">
+            <div
+              ref={imageWindow}
+              className="flex-[5] h-full rounded-lg border-2 border-gray-50 bg-black overflow-auto p-10"
+            >
               <div className="m-auto flex justify-center items-center h-full">
                 <Image
                   width={1000}
                   height={1000}
-                  src='/friends_images/rohit.jpg'
+                  src="/friends_images/rohit.jpg"
                   alt=""
                   onLoad={setNaturalDimension}
-                  style={{ scale: zoomValue, width: imageWindowDimension.width, height: imageWindowDimension.height }}
+                  style={{
+                    scale: zoomValue,
+                    width: imageWindowDimension.width,
+                    height: imageWindowDimension.height,
+                  }}
                 />
               </div>
             </div>

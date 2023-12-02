@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+      --primary: #7974f4;
+      --shadow: #f2f5f5;
+}
+
+::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: #beacac;
+      border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+      background-color: transparent;
+}
+
+body {
+      overflow-x: hidden;
+}
